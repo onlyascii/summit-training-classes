@@ -1,8 +1,8 @@
 ---
 type: "two-column"
-title: "Why a Cloud Native Platform?"
+title: "What is a Cloud Native Platform?"
 subtitle: "Explaining Cloud Native"
-menuTitle: "Why a Cloud Native Platform?"
+menuTitle: "What is a Cloud Native Platform?"
 buildInColumns: "false"
 
 columnLeftContent: |
@@ -18,7 +18,7 @@ columnRightContent: |
   **What characterises Cloud Native?**
 
   * **12 Factor** architectural style
-  * Embracing **low cost of change** in cloud
+  * Embracing **low cost of change**
   * Fast **feedback** and **small batch** sizes
 
 notes: |
