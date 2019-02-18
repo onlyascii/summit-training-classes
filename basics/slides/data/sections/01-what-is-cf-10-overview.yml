@@ -26,9 +26,10 @@ columnRightContent: |
 
 notes: |
 
-  Open-source with an Apache license, hosted on GitHub.
-
-  Developers use the cf command line utility to interact with a CF deployment.
-  The cf CLI is pre-built for Windows, Mac and Linux.
-
-  CF supports any language or framework through buildpacks. More on that subject later.
+  * Conceived at VMWare as 'Project B29' in 2009
+  * Assets transferred to Pivotal on its formation in 2013
+  * CF Foundation formed in 2015 as a non-profit to neutrally govern CF and build the community
+  * Open-source with an Apache license, hosted on GitHub.
+  * Developers use the cf command line utility to interact with a CF deployment.
+  * The cf CLI is pre-built for Windows, Mac and Linux.
+  * CF supports any language or framework through buildpacks. More on that subject later.

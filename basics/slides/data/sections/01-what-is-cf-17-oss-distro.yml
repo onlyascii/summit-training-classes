@@ -13,7 +13,7 @@ columnRightContent: |
 
   **Where can you get Open Source Cloud Foundry?**
 
-  * [github.com/cloudfoundry](https://github.com/cloudfoundry)
+  * [**github.com/cloudfoundry**](https://github.com/cloudfoundry)
   * [**cfdev**](https://github.com/cloudfoundry-incubator/cfdev) is CF and BOSH on macOS
   * **cf-deployment** requires [BOSH](https://bosh.io/docs) knowledge
   * **BOSH Lite v2** for a local CF deployment
