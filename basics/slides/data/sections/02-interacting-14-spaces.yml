@@ -27,6 +27,9 @@ content: |
 notes: |
 
   Without a space, an application or service cannot be created.
+
   A space provides a set of users access to a shared location for application development.
+
   Each org must contain at least one space.
+
   If an org contains a single space, that space will be automatically targeted.

@@ -24,4 +24,6 @@ content: |
 
 notes: |
 
-  Quotas can be applied to orgs and spaces to limit the resources that can be consumed in that org or space.  Org quotas are shared by all spaces in that org.
+  Quotas can be applied to orgs and spaces to limit the resources that can be consumed in that org or space.
+
+  Org quotas are shared by all spaces in that org.

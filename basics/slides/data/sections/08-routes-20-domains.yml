@@ -21,4 +21,8 @@ columnRightContent: |
 
 notes: |
 
-  One or more domains can be added to CF.  Shared domains can be created by the CF admin and are shared across all orgs.  Private domains can be created by Org Managers.
+  One or more domains can be added to CF.
+
+  Shared domains can be created by the CF admin and are shared across all orgs.
+
+  Private domains can be created by Org Managers.

@@ -14,4 +14,8 @@ content: |
 
 notes: |
 
-    Orgs contain 1 or more spaces. Apps are deployed to spaces. Apps within a space cannot have the same name.
+    Orgs contain 1 or more spaces.
+
+    Apps are deployed to spaces.
+
+    Apps within a space cannot have the same name.

@@ -27,4 +27,8 @@ content: |
 
 notes: |
 
-  Orgs contain 1 or more spaces.  Organizations are typically used to segregate tenants or projects in a cloud foundry installation.  However, there are no limits and users are free to implement any structure they see fit.
+  Orgs contain 1 or more spaces.
+
+  Organizations are typically used to segregate tenants or projects in a cloud foundry installation.
+
+  However, there are no limits and users are free to implement any structure they see fit.
