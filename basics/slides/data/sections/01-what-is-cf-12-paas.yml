@@ -26,7 +26,11 @@ columnRightContent: |
 notes: |
 
   * Up until recently CF _was_ CFAR. Many still use them interchangeably
+
   * IaaS - virtualization/servers and below are managed (AWS/GCP)
+
   * PaaS - runtime and below are managed (CF)
+
   * SaaS - everything is managed for you (Google Apps)
+
   * Heroku created patterns based on their experiences called "12 Factors" that have been heavily influencial. Also drove "buildpack" model

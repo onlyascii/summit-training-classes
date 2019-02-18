@@ -23,5 +23,10 @@ columnRightContent: |
 
 notes: |
 
+  * Key factors for CF
+    * 6. Execute the app as one or more stateless processes
+    * 7. Export services via port binding
+    * 9. Optimise fast startup and graceful shutdown
+    * 11. Treat logs as event streams
   * CF/CD
   * Change is now cheap
