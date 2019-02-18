@@ -23,6 +23,4 @@ columnRightContent: |
 
 notes: |
 
-  IaaS - servers, SaaS - users.
-
-  Heroku created patterns based on their experiences called "12 Factors" that have been heavily influencial. Also drove "buildpack" model
+  CaaS - somewhere between IaaS and PaaS
