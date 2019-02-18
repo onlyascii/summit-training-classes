@@ -28,5 +28,5 @@ notes: |
     * 7. Export services via port binding
     * 9. Optimise fast startup and graceful shutdown
     * 11. Treat logs as event streams
-  * CF/CD
+  * CI/CD
   * Change is now cheap
