@@ -1,0 +1,20 @@
+---
+type: "slide-basic"
+title: "What is a PaaS?"
+subtitle: "Application Runtime"
+menuTitle: "Application Runtime"
+buildInColumns: "false"
+
+content: |
+
+  Cloud Computing taxonomy: **IaaS**, **PaaS**, and **SaaS**
+
+  ![taxonomy of cloud computing](img/power-of-platform.png)
+
+notes: |
+
+  * IaaS - virtualization/servers and below are managed (AWS/GCP)
+
+  * PaaS - runtime and below are managed (CF)
+
+  * SaaS - everything is managed for you (Google Apps)
