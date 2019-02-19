@@ -13,6 +13,8 @@ columnRightContent: |
   * Requests to regular routes go 'out and back in'
   * Requests to internal domains go app-to-app
   * Allows DNS-based 'service discovery'
+  * Internal communication between apps can only happen if it has been allowed
+    * `cf add-network-policy`
 
 notes: |
 
@@ -23,3 +25,5 @@ notes: |
   Apps can be bound _just_ to an internal domain, preventing the GoRouter from reaching them, enabling privacy
 
   Internal domain route traffic doesn't go via GoRouter, so no route services
+
+  This works by running an Envoy proxy as a sidecar in the app container. Envoy is a part of Istio
