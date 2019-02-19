@@ -10,7 +10,6 @@ In this exercise, we will examine a running app to understand what a buildpack p
 {{% do %}}Use `cf help -a` to find out how to take a look at the buildpacks configured in PWS.{{% /do %}}
 {{% question %}}If you don't specify a buildpack, what is the first one that will be tested for?{{% /question %}}
 
-
 ## Pushing with the Static Buildpack
 
 An app is included in the `04-buildpacks/static-app` directory.
@@ -30,7 +29,6 @@ An app is included in the `04-buildpacks/static-app` directory.
 {{% do %}}Use `cf scale` to scale your static app to 16 instances{{% /do %}}
 {{% question %}}Why is CF able to scale instances so quickly?{{% /question %}}
 
-
 #### Checking Your Work
 
 You can view the details of your app:
@@ -47,7 +45,6 @@ $ cf app static-app
 #15   running   2015-11-02   0.0%   7M of 16M     33.6M of 64M
 ```
 
-
 ## Override the Chosen Buildpack
 
 Cloud Foundry correctly used the Staticfile Buildpack to deploy your app. It did this because the app includes a file
@@ -57,17 +54,16 @@ called `Staticfile`.
 {{% question %}}Which buildpack do you think will be used to run this app? Staticfile, or PHP?{{% /question %}}
 {{% do %}}Use `cf push` to deploy `mixed-app`{{% /do %}}
 {{% observe %}}Observe from the CLI output which buildpack was used{{% /observe %}}
-{{% do %}}Visit both `/index.html` and `/index.php`{{% /do %}}
+{{% do %}}Visit both `<your-app-route>/index.html` and `<your-app-route>/index.php` in your browser{{% /do %}}
 {{% do %}}Use `cf ssh` to see what files the buildpack has added{{% /do %}}
 
 Instead of letting Cloud Foundry allow each buildpack to detect whether it can run the app, we're going to specify which buildpack we want to use.
 
 {{% do %}}Push the app again, using a flag to specify this buildpack: `https://github.com/cloudfoundry/staticfile-buildpack` (use `cf push -\-help` to find out which flag to provide){{% /do %}}
 {{% observe %}}Observe from the CLI output which buildpack was used{{% /observe %}}
-{{% do %}}Visit both `/index.html` and `/index.php`{{% /do %}}
+{{% do %}}Visit both `<your-app-route>/index.html` and `<your-app-route>/index.php` in your browser{{% /do %}}
 {{% question %}}What happens this time? Why?{{% /question %}}
 {{% do %}}Use `cf ssh` to see what files the buildpack has added, and how they differ from the last push{{% /do %}}
-
 
 ## Clean Up
 
@@ -75,5 +71,5 @@ Instead of letting Cloud Foundry allow each buildpack to detect whether it can r
 
 ## Beyond the Class
 
-  * Write [custom buildpack](https://docs.cloudfoundry.org/buildpacks/custom.html) using [caddy HTTP/2 server](https://caddyserver.com/)
-  * Deploy static-app with custom caddy buildpack
+* Write [custom buildpack](https://docs.cloudfoundry.org/buildpacks/custom.html) using [caddy HTTP/2 server](https://caddyserver.com/)
+* Deploy static-app with custom caddy buildpack
