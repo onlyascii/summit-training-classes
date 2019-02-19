@@ -18,8 +18,8 @@ First, you need to create an instance of the service.
 Depending on your Cloud Foundry provider, you should see something similar to:
 
 ```sh
-name    service      plan   bound apps   last operation
-redis   rediscloud   30mb                create succeeded
+name      service      plan   bound apps   last operation
+counter   rediscloud   30mb                create succeeded
 ```
 
 {{% /checking %}}
@@ -72,7 +72,7 @@ Unbinding did not delete data in Redis. It _did_ remove the credentials that our
 
 ## Beyond the Class
 
-  * Use [SendGrid](https://sendgrid.com/) to send e-mails
-  * Use [IronWorker](https://www.iron.io/worker/) for async tasks
-  * Learn about [security groups](https://docs.cloudfoundry.org/adminguide/app-sec-groups.html)
-  * Use a [manually created](https://docs.pivotal.io/pivotalcf/devguide/services/user-provided.html) IBM [Cloudant instance](https://cloudant.com/)
+* Use [SendGrid](https://sendgrid.com/) to send e-mails
+* Use [IronWorker](https://www.iron.io/worker/) for async tasks
+* Learn about [security groups](https://docs.cloudfoundry.org/adminguide/app-sec-groups.html)
+* Use a [manually created](https://docs.pivotal.io/pivotalcf/devguide/services/user-provided.html) IBM [Cloudant instance](https://cloudant.com/)
