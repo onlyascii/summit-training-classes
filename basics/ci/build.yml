@@ -3,7 +3,7 @@ image_resource:
   type: docker-image
   source:
     repository: joergklein/hugo
-    tag: latest
+    tag: 0.48
 run:
   path: basics/ci/build.sh
   dir: summit-training-classes
