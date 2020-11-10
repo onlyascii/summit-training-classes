@@ -66,7 +66,7 @@ Now we have many app instances Cloud Foundry is load-balancing between them, but
 Unbinding did not delete data in Redis. It _did_ remove the credentials that our app was using to connect to Redis, but new ones were issued when we bound the app again.
 
 {{% question %}}What will happen when we delete the service instance?{{% /question %}}
-{{% question %}}Can you use `cf delete-service redis`?{{% /question %}}
+{{% question %}}Can you use `cf delete-service counter`?{{% /question %}}
 {{% do %}}Do whatever is necessary to delete the service instance, and then create it again{{% /do %}}
 {{% observe %}}When you start your app and visit it in a browser, you'll see that this is a new, clean Redis instance with no existing state{{% /observe %}}
 
