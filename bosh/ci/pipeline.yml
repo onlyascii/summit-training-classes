@@ -1,0 +1,30 @@
+resources:
+- name: summit-training-classes
+  type: git
+  source:
+    branch: master
+    uri: ((course-repository))
+- name: cf
+  type: cf
+  source:
+    api: ((cf-api))
+    organization: ((cf-org))
+    password: ((cf-password))
+    skip_cert_check: false
+    space: ((cf-space))
+    username: ((cf-username))
+
+jobs:
+- name: publish
+  public: true
+  plan:
+  - get: summit-training-classes
+    trigger: true
+  - task: generate
+    file: summit-training-classes/bosh/ci/build.yml
+  - put: cf
+    params:
+      manifest: summit-training-classes/bosh/ci/manifest.yml
+      path: built/
+      vars:
+        routes: ((routes))

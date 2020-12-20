@@ -1,0 +1,16 @@
+---
+
+baseurl: "/"
+languageCode: "en-us"
+title: "BOSH : From Zero to Hero"
+theme: "hugo-theme-pivotal-revealjs"
+
+params:
+
+  logo: img/cf.png
+
+  titleSlide:
+    subtitle: "BOSH For Beginners"
+    notes: |
+
+      A beginners guide to BOSH.

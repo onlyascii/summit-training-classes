@@ -1,0 +1,14 @@
+platform: linux
+image_resource:
+  type: docker-image
+  source:
+    repository: joergklein/hugo
+    tag: 0.48
+run:
+  path: concourse/ci/build.sh
+  dir: summit-training-classes
+inputs:
+- name: summit-training-classes
+outputs:
+- name: built
+  path: built

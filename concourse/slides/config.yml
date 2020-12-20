@@ -1,0 +1,16 @@
+---
+
+baseurl: "/"
+languageCode: "en-us"
+title: "Concourse CI : From Zero to Hero"
+theme: "hugo-theme-pivotal-revealjs"
+
+params:
+
+  logo: img/cf.png
+
+  titleSlide:
+    subtitle: "Concourse CI For Beginners"
+    notes: |
+
+      A beginners guide to Concourse CI.
