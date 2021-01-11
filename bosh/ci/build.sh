@@ -3,7 +3,7 @@
 set -ex
 
 pushd bosh/site
-  hugo  
+  hugo
 popd
 
 pushd bosh/slides
